@@ -1,0 +1,15 @@
+
+  .section-title {
+    font-size: 3.75rem;
+    font-weight: 300;
+    text-align: center;
+
+    &--blue {
+      color: blue;
+    }
+
+    &--less-margin {
+      margin-bottom: 1.3rem;
+      margin-top: 0;
+    }
+  }

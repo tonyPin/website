@@ -1,0 +1,48 @@
+.primary-nav {
+  
+  &--pull-left {
+    
+    
+    @media (--medium-viewport) {
+      float: left;
+    }
+  }
+
+  ul {
+    
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
+    padding: 10px 30px;
+
+    @media (--medium-viewport) {
+      float: left;
+      display: block;
+      
+    }
+  }
+
+  a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: large;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: $lightTeal;
+  }
+
+  a:hover {
+    border-radius: 5px;
+    color:white;
+    background:rgba(0, 199,177, .5);
+
+    @media (--medium-viewport) {
+      background:transparent;
+      color: $mainOrange;
+    }
+  }
+}

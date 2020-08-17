@@ -1,0 +1,55 @@
+.headline {
+  font-weight: 300;
+  font-size: 1.9rem;
+  color: $mainTeal;
+
+
+  @media (--small-viewport) {
+    font-size: 2.875rem;
+    
+  }
+
+  &--centered {
+    text-align: center;
+  }
+
+  &--gold {
+    color: $mainGold;
+  }
+
+  &--small{
+    font-size: 1.2rem;
+
+    @media (--small-viewport) {
+      font-size: 1.7rem;
+    }
+  }
+
+  &--narrow {
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    
+  }
+
+  &--light {
+    font-weight: 100;
+  }
+
+  strong {
+    font-weight: 700;
+  }
+
+  &--b-margin-small{
+    margin-bottom: .5em;
+  }
+
+  &--b-margin-large {
+    margin-bottom: 1.6em;
+  }
+
+  &--no-t-margin {
+    margin-top: 0;
+    text-align: center;
+  }
+}
