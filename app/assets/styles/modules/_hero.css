@@ -22,6 +22,7 @@
     font-weight: 300;
     color: $offWhite;
     margin: 0;
+    text-shadow: 4px  4px 0 rgba(0, 0, 0, 0.1);
 
     @media (--small-viewport) {
       font-size: 3.8rem;
@@ -48,7 +49,7 @@
   }
 
   &__image {
-    filter: brightness(60%);
+    filter: brightness(50%);
     display: block;
   }
 }
