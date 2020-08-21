@@ -18,6 +18,14 @@
   
   }
 
+  &--footer {
+    @media (--medium-viewport) {
+      height: auto;
+      width: auto;
+      padding: 90px 0;
+    }
+  }
+
   &__menu-icon {
     width: 20px;
     height: 20px;
