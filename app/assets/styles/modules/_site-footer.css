@@ -1,5 +1,10 @@
 .site-footer {
-  background-color: yellow;
+
+  a:hover{
+    color: $offWhite;
+    background: rgba(35,185,155,0.6);
+  }
+  
   padding: 0.5rem 0;
   text-align: center;
 

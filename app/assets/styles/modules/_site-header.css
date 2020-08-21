@@ -24,8 +24,8 @@
 .site-header{
   
   a:hover{
-    color: white;
-    background:rgba(0, 199,177, .5);
+    color: $offWhite;
+    background:rgba(185,155,35,0.80);
   }
 
   padding: 0px 0px;

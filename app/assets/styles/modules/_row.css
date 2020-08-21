@@ -1,5 +1,5 @@
 .row {
- 
+  
   &--clearfix {
     &::after {
       content: "";
@@ -11,7 +11,7 @@
   &--t-padding {
     padding-top: 80px;
   }
-  background-color: yellow;
+  
 
   &__b-margin-until-medium {
     margin-bottom: 1rem;
@@ -46,6 +46,19 @@
       width: 50%;
     }
 
+    &--gutters {
+      padding-right: -65px;
+    }
+  
+    &--gutters > div {
+      padding-right: 65px;
+    }
+
+  }
+
+  &__medium-4  { /*this center the image*/
+    display: block;
+    text-align: center;
   }
 
   @media (--large-viewport) {
@@ -76,20 +89,22 @@
       float: left;
       width: 50%;
     }
-
+    
+    &--gutters {
+      padding-right: -65px;
+    }
+  
+    &--gutters > div {
+      padding-right: 65px;
+    }
   }
   
 
-  &--gutters {
-    margin-right: -65px;
-  }
+ 
 
-  &--gutters > div {
-    padding-right: 65px;
-    box-sizing: border-box;
-  }
+  
 
-  /* Begin Equal Height Rules */
+  /* Begin Equal Height Rules testimonials*/
 
   &--equal-height-at-medium {
     @media (--medium-viewport) {

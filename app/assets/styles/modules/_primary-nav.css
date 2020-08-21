@@ -32,17 +32,17 @@
     font-size: large;
     font-weight: 300;
     text-transform: uppercase;
-    color: $lightTeal;
+    color: $mainTeal;
   }
 
   a:hover {
     border-radius: 5px;
-    color:white;
-    background:rgba(0, 199,177, .5);
+    color:$offWhite;
+    background-color:rgba(185,155,35,0.70);
 
     @media (--medium-viewport) {
       background:transparent;
-      color: $mainOrange;
+      color: $mainGold;
     }
   }
 }

@@ -5,7 +5,16 @@
   }
 
   &--testimonials{
-    /*may add background image*/
+    background: url(assets/images/gym.jpg) top center no-repeat;
+    background-size: cover;
+    
   }
-  
+
+  &--blog {
+    padding: 1.2rem 0;
+  }
+
+  &--gradient{
+    background-color: rgba(211, 211, 211, .7);
+  }
 }

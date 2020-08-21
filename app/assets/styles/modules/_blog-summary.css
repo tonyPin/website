@@ -17,22 +17,22 @@
     left: 0;
     position: absolute;
     padding: 14px 0 11px 0;
-    color: #FFF;
+    color: $offWhite;
     border-radius: 50%;
-    background-color: $mainTeal;
+    background-color: $mainGold;
     width: 80px;
     line-height: 1;
     transition: opacity .33s;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, .22);
+    text-shadow: 1px 1px 1px rgba(80, 48, 48, 0.42);
     text-align: center;
   }
 
   &__date:hover {
-    opacity: .75;
+    opacity: .7;
   }
 
-  &__date--beige {
-    background-color: steelblue;
+  &__date--gold {
+    background-color: $mainGold;
   }
 
   &__month {

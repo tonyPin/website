@@ -8,5 +8,23 @@ img {
 }
 
 body {
+  font-family: 'Roboto', sans-serif;
   color: $text;
+  background-color: $offWhite;
+  
+}
+
+.transform {
+  max-height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: $mainTeal;
+}
+
+a:hover {
+  text-decoration: none;
+  color: $mainGold;
 }

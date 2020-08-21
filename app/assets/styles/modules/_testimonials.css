@@ -1,11 +1,13 @@
 .testimonial {
-  background-color: rgba(255, 255, 255, .8);
+  background-color: rgba(255, 255, 255, .7);
   padding: 0 18px 1px 18px;
   margin-bottom: 98px;
+  margin-right: 0;
 
   @media (--large-viewport) {
     margin-bottom: 0;
     padding: 0 1.8125rem 1px 1.8125rem;
+    
   }
 
   &--last {
@@ -31,5 +33,24 @@
     margin: 0;
   }
 
- 
+  &--1 {
+
+    @media (--large-viewport) {
+      margin-right: 30px;
+      
+    }
+   
+  }
+
+  &--2 {
+
+    @media (--large-viewport) {
+      margin-left: 30px;
+      
+    }
+    
+  }
 }
+
+
+

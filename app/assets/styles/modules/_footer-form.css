@@ -9,7 +9,7 @@
   }
 
   &__container--input{
-    background-color: white;
+    background-color: $offWhite;
   }
 
   &--text {
@@ -17,7 +17,7 @@
     
 
     h2, p {
-      color: red;
+      color: $mainTeal;
     }
   }
 
@@ -31,9 +31,10 @@
   }
 
   input[type=submit]{
-    background-color: #4CAF50;
-    color: white;
+    background-color: $mainGold;
+    color: $offWhite;
     border: none;
+    border-radius: 5px;
     
   }
 
